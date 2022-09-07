@@ -1,0 +1,62 @@
+h1{
+    background-color: brown;
+}
+h1{
+    color: red;
+}
+p{
+    color: black
+}
+a:hover {
+    text-align: center;
+}
+a:hover{
+    background-color: black;
+}
+.text{
+    background-color: green;
+    color: red;
+}
+body h2{
+    display: flex;
+    justify-content: center;
+    margin: auto;  
+}
+h1{
+    color: black;
+    border: 2px solid blue;
+    background-color: yellow;
+    font-family: verdana;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+}
+h1 {
+    font-size: 40pt;
+    color :#FF0000;
+    font-style: italic;
+    border-bottom: solid thin black;
+   }
+   p{
+    text-align: right;
+   }
+   li{
+    display: inline;
+    color: blue;
+   }
+
+.box{
+    display: flex;
+    background: rgb(113, 21, 21);
+    width: 100px;
+    height: 200px;
+}
+aside {
+    display: flex;
+    background-color: black;
+}

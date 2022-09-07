@@ -1,0 +1,53 @@
+header{
+    display: flex;
+}
+h2{ 
+    margin: auto;
+}
+nav{
+    padding: 5px; 
+    background-color: black;
+    margin-bottom: 5px;
+    
+}
+li{
+    display: inline;
+}
+a{
+    color: white;
+}
+#accueuil{
+    font-style: italic;
+    border-bottom: solid rgb(215, 207, 207);
+    padding-bottom: 20px;
+    
+}
+#section1 h1{
+    font-style: inherit;
+    color: brown;
+}
+#article1 h1{
+    font-style: inherit;
+    color: brown;
+}
+article h1{
+    font-style: inherit;
+    color: brown;
+}
+footer{
+    padding: 5px;
+    background-color: black;
+    margin-top: 10px;
+}
+.box{
+    display:flex;
+    background: rgb(169, 165, 165);
+    width: 100%;
+}
+.colonne1{
+    display: flex;
+}
+aside{
+    display: flex;
+    width: 50%
+}
