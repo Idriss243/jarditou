@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="asset/css/contact.css">
 </head>
 <body>
     <header>
         <img src="asset/images/jarditou_logo.jpg" alt="jarditou_logo" width="400px" height="150px">
+        <h2>Tout le jardin</h2>
     </header>
-    <div>La qualité depuis 70 ans</div>
     <nav>
         <ul>
             <li><a href="accueuil.html">Accueuil</a></li>
@@ -18,9 +19,10 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <img src="asset/images/promotion.jpg" alt="promotion.jpg">
-    <caption><h1 id="tableau">Contact</h1></caption>
-    <p>__________________________________________________________________________________________________________________________________________</p>
+    <img src="asset/images/promotion.jpg" alt="promotion.jpg" width="100%">
+    <div class="colonne1">
+    <section>
+    <caption><h1 id="contact">Contact</h1></caption>
     <p>*Ces zones sont obligatoires</p>
     <form action="http://bienvu.net/script.php" method="get">
     <br><fieldset>
@@ -33,9 +35,8 @@
          <label for="nom">Code postal* : </label><input type="text" name="codepostal" id="codepostal" required title="codepostalsvp"><br>
          <label for="nom">Adresse : </label><input type="text" name="adress" id="adress"><br>
          <label for="nom">Ville : </label><input type="text" name="ville" id="ville"><br>
-        <label for="?">Email:</label><input type="email" name="email" placeholder="dave.loper@afpa.fr" required title="emailsvp"><br>
+        <label for="?">Email: </label><input type="email" name="email" placeholder="dave.loper@afpa.fr" required title="emailsvp"><br>
        </fieldset>
-
     <br><fieldset>
         <legend>Votre demande</legend>
         <label for="couleur">Sujet* : </label>
@@ -51,7 +52,11 @@
     <input type="checkbox" name="obligatoire" value="contrat" required title=" case obligatoire"> <label for="obligatoire">* J'accepte le traitement informatique de ce formulaire</label>
     <br><button type="submit">Envoyer</button>  <button type="submit"> Annuler</button>
     </form>
-    <p>______________________________________________________________________________________________________________________________________________</p>
+    </section>
+    <aside class="box">
+        <div>[COLONNE DROITE]</div>
+    </aside>
+    </div>
     <footer>
         <ul>
             <li><a href="mentionlegales">Mention Légales</a></li>

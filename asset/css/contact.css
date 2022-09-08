@@ -16,20 +16,36 @@ li{
 a{
     color: white;
 }
-#tableau{
+#contact{
     font-style: italic;
     border-bottom: solid rgb(215, 207, 207);
     padding-bottom: 20px;
-    width: 98%;
+    width: 98%; 
 }
-footer{
-    padding: 5px;
-    background-color: black;
-    margin-top: 10px;
-}
-th{
-    color: brown;
+p {
     font-style: italic;
+}
+legend{
+    font-style: italic;
+}
+label{
+    font-style: italic;
+}
+input{
+    font-style: italic;
+    color: brown;
+}
+#couleur{
+    font-style: italic;
+    color: blue;
+}
+button{
+    font-style: italic;
+    color: aqua;
+}
+fieldset{
+    border: 1px solid;
+    width: 95%;
 }
 aside{
     display: flex;
@@ -40,8 +56,10 @@ aside{
 .colonne1{
     display: flex;
 }
-td{
-    font-style: italic;
+footer{
+    padding: 5px;
+    background-color: black;
+    margin-top: 10px;
 }
 section{
     width: 70%;

@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px) 
+{ 
+    html
+    { 
+        font-size : 0.5rem;
+        color: darkgreen; 
+    }
+    
+    h1
+    {
+     font-size: 1rem;
+    }
+    
+    img 
+    {
+     max-width: 100%;
+     height: auto;
+    }
+
+    aside
+    {
+        display: none;
+    }
+    a{
+        display: block;
+    }
+    h2{
+        display: block;
+    }
+    section{
+        width: 100%;
+    }
+} 
